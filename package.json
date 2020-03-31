@@ -1,0 +1,30 @@
+{
+  "name": "simple_chat_rest",
+  "version": "1.0.0",
+  "description": "it's simple chat rest-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonifirnandes/simple_chat_rest.git"
+  },
+  "keywords": [
+    "socket.io",
+    "rest-api",
+    "chat"
+  ],
+  "author": "Toni Firnandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonifirnandes/simple_chat_rest/issues"
+  },
+  "homepage": "https://github.com/tonifirnandes/simple_chat_rest#readme",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.2",
+    "@feathersjs/feathers": "^4.5.2",
+    "@feathersjs/socketio": "^4.5.2"
+  }
+}
